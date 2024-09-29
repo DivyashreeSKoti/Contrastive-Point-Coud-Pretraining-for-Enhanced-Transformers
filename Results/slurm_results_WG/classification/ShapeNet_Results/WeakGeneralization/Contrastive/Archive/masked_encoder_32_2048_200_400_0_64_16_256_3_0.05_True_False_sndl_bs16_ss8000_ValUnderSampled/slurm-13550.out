@@ -1,0 +1,37 @@
+normalization: 0 file_list ./partitioned/train_99_balanced_percent_equal.txt
+Loading val data:   0%|                                                                                      | 0/55 [00:00<?, ?it/s]Loading val data:   2%|█▍                                                                            | 1/55 [00:01<00:56,  1.04s/it]Loading val data:   5%|████▎                                                                         | 3/55 [00:01<00:16,  3.23it/s]Loading val data:   9%|███████                                                                       | 5/55 [00:01<00:10,  4.70it/s]Loading val data:  13%|█████████▉                                                                    | 7/55 [00:01<00:11,  4.28it/s]Loading val data:  16%|████████████▊                                                                 | 9/55 [00:02<00:07,  5.84it/s]Loading val data:  20%|███████████████▍                                                             | 11/55 [00:02<00:06,  7.28it/s]Loading val data:  24%|██████████████████▏                                                          | 13/55 [00:02<00:08,  5.12it/s]Loading val data:  31%|███████████████████████▊                                                     | 17/55 [00:03<00:08,  4.59it/s]Loading val data:  33%|█████████████████████████▏                                                   | 18/55 [00:04<00:08,  4.61it/s]Loading val data:  35%|██████████████████████████▌                                                  | 19/55 [00:05<00:17,  2.07it/s]Loading val data:  36%|████████████████████████████                                                 | 20/55 [00:05<00:14,  2.38it/s]Loading val data:  42%|████████████████████████████████▏                                            | 23/55 [00:06<00:08,  3.58it/s]Loading val data:  45%|███████████████████████████████████                                          | 25/55 [00:06<00:06,  4.39it/s]Loading val data:  49%|█████████████████████████████████████▊                                       | 27/55 [00:06<00:05,  4.92it/s]Loading val data:  53%|████████████████████████████████████████▌                                    | 29/55 [00:06<00:04,  5.78it/s]Loading val data:  55%|██████████████████████████████████████████                                   | 30/55 [00:07<00:04,  6.17it/s]Loading val data:  56%|███████████████████████████████████████████▍                                 | 31/55 [00:07<00:06,  3.91it/s]Loading val data:  58%|████████████████████████████████████████████▊                                | 32/55 [00:07<00:05,  4.43it/s]Loading val data:  60%|██████████████████████████████████████████████▏                              | 33/55 [00:08<00:06,  3.66it/s]Loading val data:  67%|███████████████████████████████████████████████████▊                         | 37/55 [00:08<00:02,  7.19it/s]Loading val data:  71%|██████████████████████████████████████████████████████▌                      | 39/55 [00:08<00:01,  8.66it/s]Loading val data:  76%|██████████████████████████████████████████████████████████▊                  | 42/55 [00:08<00:01,  9.70it/s]Loading val data:  82%|███████████████████████████████████████████████████████████████              | 45/55 [00:09<00:01,  6.86it/s]Loading val data:  87%|███████████████████████████████████████████████████████████████████▏         | 48/55 [00:10<00:01,  5.07it/s]Loading val data:  91%|██████████████████████████████████████████████████████████████████████       | 50/55 [00:12<00:02,  2.41it/s]Loading val data:  96%|██████████████████████████████████████████████████████████████████████████▏  | 53/55 [00:12<00:00,  3.41it/s]Loading val data:  98%|███████████████████████████████████████████████████████████████████████████▌ | 54/55 [00:13<00:00,  3.11it/s]Loading val data: 100%|█████████████████████████████████████████████████████████████████████████████| 55/55 [00:13<00:00,  4.15it/s]
+Cuda available :-  True
+
+device cuda 
+
+*************** Using pretrained ***************
+ContrastiveLearning_Model/saved_models/ShapeNetPretrained55/masked_encoder_32_2048_200_400_0_64_16_256_3_0.05_True_False_sndl.pth
+
+bs: 16 ss 8000 
+
+Traceback (most recent call last):
+  File "/var/spool/slurm/d/job13550/slurm_script", line 359, in <module>
+    train_outputs = pytorch_model(batch_data)
+  File "/home/dsk2v/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/var/spool/slurm/d/job13550/slurm_script", line 159, in forward
+    _, outputs = self.pretrained_model(inputs, get_embeddings=get_embeddings)
+  File "/home/dsk2v/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/dsk2v/PointCloud/BodyScan/spring_2024/SetTransformer_Extrapolating/__init__.py", line 265, in forward
+    y = block(y)
+  File "/home/dsk2v/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/dsk2v/PointCloud/BodyScan/spring_2024/SetTransformer_Extrapolating/__init__.py", line 181, in forward
+    result = self.mab2((x, h), return_attention_scores=return_attention_scores)
+  File "/home/dsk2v/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/dsk2v/PointCloud/BodyScan/spring_2024/SetTransformer_Extrapolating/__init__.py", line 108, in forward
+    return self.call_post_attention_layer(x, y, return_attention_scores)
+  File "/home/dsk2v/PointCloud/BodyScan/spring_2024/SetTransformer_Extrapolating/__init__.py", line 131, in call_post_attention_layer
+    attn_output, attn_probs = self.att(x, y, y)
+  File "/home/dsk2v/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/dsk2v/PointCloud/BodyScan/spring_2024/SetTransformer_Extrapolating/__init__.py", line 40, in forward
+    attention_scores = attention_scores / torch.sqrt(torch.tensor(self.embed_dim, dtype=torch.float32))
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.95 GiB (GPU 0; 10.75 GiB total capacity; 8.21 GiB already allocated; 672.56 MiB free; 9.90 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

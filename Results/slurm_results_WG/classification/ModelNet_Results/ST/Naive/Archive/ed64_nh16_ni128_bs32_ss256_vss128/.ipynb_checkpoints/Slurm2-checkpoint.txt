@@ -1,0 +1,282 @@
+ModelNet Loading
+------ (9840, 2048, 3) (9840, 1)
+------ (2468, 2048, 3) (2468, 1)
+[ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+ 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39] [100  50 100  20 100 100  20 100 100  20  20  20  86  20  86  20 100 100
+  20  20  20 100 100  86  20 100 100  20 100  20 100  20  20 100  20 100
+ 100 100  20  20]
+[ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+ 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39] [100  50 100  20 100 100  20 100 100  20  20  20  86  20  86  20 100 100
+  20  20  20 100 100  86  20 100 100  20 100  20 100  20  20 100  20 100
+ 100 100  20  20]
+(9840, 2048, 3)
+(2468, 2048, 3)
+Cuda available :-  True
+
+device cuda 
+
+*************** New model ***************
+num_classes 40
+Details: embed_dim = 64 num_heads = 16 num_induce = 128 stack = 3 dropout = 0.05 use_layernorm =  True pre_layernorm =  False
+val_subsample_size:  128
+
+bs: 32 ss 256 
+
+ Epoch [1/250], Train Loss: 3.6810, Train Accuracy: 0.0371, Train F1: 0.0266, Validation Loss: 3.2584,Validation Accuracy: 0.1110, Val F1: 0.0371
+ Epoch [2/250], Train Loss: 3.0045, Train Accuracy: 0.1641, Train F1: 0.1230, Validation Loss: 2.7317,Validation Accuracy: 0.2488, Val F1: 0.1462
+ Epoch [3/250], Train Loss: 2.6310, Train Accuracy: 0.2543, Train F1: 0.2084, Validation Loss: 2.5162,Validation Accuracy: 0.2771, Val F1: 0.2016
+ Epoch [4/250], Train Loss: 2.4324, Train Accuracy: 0.3070, Train F1: 0.2702, Validation Loss: 2.2869,Validation Accuracy: 0.3225, Val F1: 0.2521
+ Epoch [5/250], Train Loss: 2.2955, Train Accuracy: 0.3316, Train F1: 0.3023, Validation Loss: 2.2149,Validation Accuracy: 0.3391, Val F1: 0.2817
+ Epoch [6/250], Train Loss: 2.1405, Train Accuracy: 0.3922, Train F1: 0.3550, Validation Loss: 1.9662,Validation Accuracy: 0.4157, Val F1: 0.3214
+ Epoch [7/250], Train Loss: 2.0066, Train Accuracy: 0.4098, Train F1: 0.3811, Validation Loss: 1.9519,Validation Accuracy: 0.4182, Val F1: 0.3321
+ Epoch [8/250], Train Loss: 1.8706, Train Accuracy: 0.4480, Train F1: 0.4228, Validation Loss: 1.7983,Validation Accuracy: 0.4408, Val F1: 0.3635
+ Epoch [9/250], Train Loss: 1.7556, Train Accuracy: 0.4867, Train F1: 0.4552, Validation Loss: 1.6738,Validation Accuracy: 0.4959, Val F1: 0.4081
+ Epoch [10/250], Train Loss: 1.7316, Train Accuracy: 0.4883, Train F1: 0.4702, Validation Loss: 1.6300,Validation Accuracy: 0.5130, Val F1: 0.4224
+ Epoch [11/250], Train Loss: 1.6875, Train Accuracy: 0.4980, Train F1: 0.4742, Validation Loss: 1.6273,Validation Accuracy: 0.4996, Val F1: 0.4093
+ Epoch [12/250], Train Loss: 1.6522, Train Accuracy: 0.5000, Train F1: 0.4796, Validation Loss: 1.7733,Validation Accuracy: 0.4368, Val F1: 0.3720
+ Epoch [13/250], Train Loss: 1.6296, Train Accuracy: 0.5004, Train F1: 0.4793, Validation Loss: 1.5954,Validation Accuracy: 0.5118, Val F1: 0.4162
+ Epoch [14/250], Train Loss: 1.5627, Train Accuracy: 0.5207, Train F1: 0.5028, Validation Loss: 1.5103,Validation Accuracy: 0.5348, Val F1: 0.4531
+ Epoch [15/250], Train Loss: 1.5126, Train Accuracy: 0.5441, Train F1: 0.5275, Validation Loss: 1.5696,Validation Accuracy: 0.5085, Val F1: 0.4389
+ Epoch [16/250], Train Loss: 1.5041, Train Accuracy: 0.5246, Train F1: 0.5061, Validation Loss: 1.4431,Validation Accuracy: 0.5506, Val F1: 0.4640
+ Epoch [17/250], Train Loss: 1.4121, Train Accuracy: 0.5609, Train F1: 0.5437, Validation Loss: 1.4301,Validation Accuracy: 0.5340, Val F1: 0.4598
+ Epoch [18/250], Train Loss: 1.3795, Train Accuracy: 0.5770, Train F1: 0.5631, Validation Loss: 1.4420,Validation Accuracy: 0.5531, Val F1: 0.4650
+ Epoch [19/250], Train Loss: 1.4176, Train Accuracy: 0.5801, Train F1: 0.5647, Validation Loss: 1.4430,Validation Accuracy: 0.5539, Val F1: 0.4698
+ Epoch [20/250], Train Loss: 1.3672, Train Accuracy: 0.5723, Train F1: 0.5589, Validation Loss: 1.3640,Validation Accuracy: 0.5681, Val F1: 0.4851
+ Epoch [21/250], Train Loss: 1.3097, Train Accuracy: 0.5875, Train F1: 0.5725, Validation Loss: 1.2997,Validation Accuracy: 0.6106, Val F1: 0.5340
+ Epoch [22/250], Train Loss: 1.2681, Train Accuracy: 0.6055, Train F1: 0.5930, Validation Loss: 1.4309,Validation Accuracy: 0.5425, Val F1: 0.4765
+ Epoch [23/250], Train Loss: 1.2567, Train Accuracy: 0.6020, Train F1: 0.5878, Validation Loss: 1.2934,Validation Accuracy: 0.6058, Val F1: 0.5313
+ Epoch [24/250], Train Loss: 1.2055, Train Accuracy: 0.6188, Train F1: 0.6046, Validation Loss: 1.2897,Validation Accuracy: 0.5879, Val F1: 0.5246
+ Epoch [25/250], Train Loss: 1.2321, Train Accuracy: 0.6219, Train F1: 0.6098, Validation Loss: 1.1917,Validation Accuracy: 0.6386, Val F1: 0.5529
+ Epoch [26/250], Train Loss: 1.2362, Train Accuracy: 0.6004, Train F1: 0.5886, Validation Loss: 1.2604,Validation Accuracy: 0.5920, Val F1: 0.5237
+ Epoch [27/250], Train Loss: 1.2446, Train Accuracy: 0.6129, Train F1: 0.6024, Validation Loss: 1.2135,Validation Accuracy: 0.6268, Val F1: 0.5428
+ Epoch [28/250], Train Loss: 1.1558, Train Accuracy: 0.6383, Train F1: 0.6291, Validation Loss: 1.2975,Validation Accuracy: 0.5713, Val F1: 0.5140
+ Epoch [29/250], Train Loss: 1.1320, Train Accuracy: 0.6500, Train F1: 0.6389, Validation Loss: 1.1990,Validation Accuracy: 0.6297, Val F1: 0.5597
+ Epoch [30/250], Train Loss: 1.0921, Train Accuracy: 0.6594, Train F1: 0.6499, Validation Loss: 1.1997,Validation Accuracy: 0.6224, Val F1: 0.5520
+ Epoch [31/250], Train Loss: 1.1084, Train Accuracy: 0.6641, Train F1: 0.6556, Validation Loss: 1.1800,Validation Accuracy: 0.6244, Val F1: 0.5487
+ Epoch [32/250], Train Loss: 1.1332, Train Accuracy: 0.6430, Train F1: 0.6367, Validation Loss: 1.1595,Validation Accuracy: 0.6293, Val F1: 0.5542
+ Epoch [33/250], Train Loss: 1.0770, Train Accuracy: 0.6555, Train F1: 0.6490, Validation Loss: 1.1712,Validation Accuracy: 0.6317, Val F1: 0.5466
+ Epoch [34/250], Train Loss: 1.0094, Train Accuracy: 0.6918, Train F1: 0.6832, Validation Loss: 1.0597,Validation Accuracy: 0.6799, Val F1: 0.5983
+ Epoch [35/250], Train Loss: 1.0192, Train Accuracy: 0.6773, Train F1: 0.6708, Validation Loss: 1.1214,Validation Accuracy: 0.6479, Val F1: 0.5786
+ Epoch [36/250], Train Loss: 1.0779, Train Accuracy: 0.6566, Train F1: 0.6485, Validation Loss: 1.0485,Validation Accuracy: 0.6759, Val F1: 0.5917
+ Epoch [37/250], Train Loss: 1.0065, Train Accuracy: 0.6656, Train F1: 0.6569, Validation Loss: 1.1155,Validation Accuracy: 0.6592, Val F1: 0.5748
+ Epoch [38/250], Train Loss: 1.0920, Train Accuracy: 0.6418, Train F1: 0.6364, Validation Loss: 1.0414,Validation Accuracy: 0.6848, Val F1: 0.6061
+ Epoch [39/250], Train Loss: 1.0401, Train Accuracy: 0.6699, Train F1: 0.6593, Validation Loss: 1.0471,Validation Accuracy: 0.6823, Val F1: 0.6070
+ Epoch [40/250], Train Loss: 0.9719, Train Accuracy: 0.6879, Train F1: 0.6797, Validation Loss: 1.0634,Validation Accuracy: 0.6823, Val F1: 0.6019
+ Epoch [41/250], Train Loss: 0.9802, Train Accuracy: 0.6898, Train F1: 0.6816, Validation Loss: 1.1234,Validation Accuracy: 0.6511, Val F1: 0.5901
+ Epoch [42/250], Train Loss: 0.9555, Train Accuracy: 0.6918, Train F1: 0.6862, Validation Loss: 1.0210,Validation Accuracy: 0.6783, Val F1: 0.6153
+ Epoch [43/250], Train Loss: 0.9876, Train Accuracy: 0.6883, Train F1: 0.6827, Validation Loss: 1.0734,Validation Accuracy: 0.6665, Val F1: 0.5987
+ Epoch [44/250], Train Loss: 1.0321, Train Accuracy: 0.6813, Train F1: 0.6727, Validation Loss: 1.0310,Validation Accuracy: 0.6722, Val F1: 0.5982
+ Epoch [45/250], Train Loss: 0.9568, Train Accuracy: 0.7043, Train F1: 0.6981, Validation Loss: 1.0252,Validation Accuracy: 0.6840, Val F1: 0.6156
+ Epoch [46/250], Train Loss: 0.9077, Train Accuracy: 0.7191, Train F1: 0.7125, Validation Loss: 1.1768,Validation Accuracy: 0.6305, Val F1: 0.5611
+ Epoch [47/250], Train Loss: 0.9151, Train Accuracy: 0.7059, Train F1: 0.7010, Validation Loss: 1.0095,Validation Accuracy: 0.6750, Val F1: 0.6022
+ Epoch [48/250], Train Loss: 0.9794, Train Accuracy: 0.6797, Train F1: 0.6736, Validation Loss: 0.9735,Validation Accuracy: 0.7030, Val F1: 0.6295
+ Epoch [49/250], Train Loss: 0.9262, Train Accuracy: 0.7027, Train F1: 0.6960, Validation Loss: 1.0968,Validation Accuracy: 0.6467, Val F1: 0.5709
+ Epoch [50/250], Train Loss: 0.8976, Train Accuracy: 0.7113, Train F1: 0.7038, Validation Loss: 0.9811,Validation Accuracy: 0.6945, Val F1: 0.6228
+ Epoch [51/250], Train Loss: 0.9225, Train Accuracy: 0.7109, Train F1: 0.7064, Validation Loss: 0.9868,Validation Accuracy: 0.6884, Val F1: 0.6250
+ Epoch [52/250], Train Loss: 0.9286, Train Accuracy: 0.7090, Train F1: 0.7032, Validation Loss: 1.0688,Validation Accuracy: 0.6609, Val F1: 0.6024
+ Epoch [53/250], Train Loss: 0.9368, Train Accuracy: 0.7012, Train F1: 0.6967, Validation Loss: 0.9728,Validation Accuracy: 0.6925, Val F1: 0.6332
+ Epoch [54/250], Train Loss: 0.8725, Train Accuracy: 0.7242, Train F1: 0.7198, Validation Loss: 0.9574,Validation Accuracy: 0.6904, Val F1: 0.6248
+ Epoch [55/250], Train Loss: 0.8861, Train Accuracy: 0.7246, Train F1: 0.7194, Validation Loss: 0.9647,Validation Accuracy: 0.6937, Val F1: 0.6284
+ Epoch [56/250], Train Loss: 0.8937, Train Accuracy: 0.7090, Train F1: 0.7036, Validation Loss: 0.9884,Validation Accuracy: 0.6941, Val F1: 0.6116
+ Epoch [57/250], Train Loss: 0.8853, Train Accuracy: 0.7109, Train F1: 0.7050, Validation Loss: 0.9561,Validation Accuracy: 0.6949, Val F1: 0.6240
+ Epoch [58/250], Train Loss: 0.8979, Train Accuracy: 0.7207, Train F1: 0.7151, Validation Loss: 0.9863,Validation Accuracy: 0.6807, Val F1: 0.6042
+ Epoch [59/250], Train Loss: 0.8318, Train Accuracy: 0.7383, Train F1: 0.7335, Validation Loss: 1.0942,Validation Accuracy: 0.6532, Val F1: 0.5893
+ Epoch [60/250], Train Loss: 0.8427, Train Accuracy: 0.7309, Train F1: 0.7254, Validation Loss: 1.0301,Validation Accuracy: 0.6868, Val F1: 0.6239
+ Epoch [61/250], Train Loss: 0.8654, Train Accuracy: 0.7242, Train F1: 0.7177, Validation Loss: 0.9279,Validation Accuracy: 0.7216, Val F1: 0.6521
+ Epoch [62/250], Train Loss: 0.8922, Train Accuracy: 0.7145, Train F1: 0.7087, Validation Loss: 0.9379,Validation Accuracy: 0.7123, Val F1: 0.6357
+ Epoch [63/250], Train Loss: 0.8429, Train Accuracy: 0.7297, Train F1: 0.7238, Validation Loss: 0.9987,Validation Accuracy: 0.7010, Val F1: 0.6358
+ Epoch [64/250], Train Loss: 0.8128, Train Accuracy: 0.7508, Train F1: 0.7461, Validation Loss: 0.9491,Validation Accuracy: 0.7022, Val F1: 0.6307
+ Epoch [65/250], Train Loss: 0.8573, Train Accuracy: 0.7277, Train F1: 0.7222, Validation Loss: 1.0303,Validation Accuracy: 0.6783, Val F1: 0.5974
+ Epoch [66/250], Train Loss: 0.8525, Train Accuracy: 0.7227, Train F1: 0.7163, Validation Loss: 1.0613,Validation Accuracy: 0.6617, Val F1: 0.6039
+ Epoch [67/250], Train Loss: 0.8178, Train Accuracy: 0.7340, Train F1: 0.7276, Validation Loss: 0.9483,Validation Accuracy: 0.7099, Val F1: 0.6301
+ Epoch [68/250], Train Loss: 0.8090, Train Accuracy: 0.7262, Train F1: 0.7202, Validation Loss: 0.9502,Validation Accuracy: 0.6989, Val F1: 0.6279
+ Epoch [69/250], Train Loss: 0.8278, Train Accuracy: 0.7262, Train F1: 0.7205, Validation Loss: 0.9924,Validation Accuracy: 0.6872, Val F1: 0.6209
+ Epoch [70/250], Train Loss: 0.8195, Train Accuracy: 0.7227, Train F1: 0.7172, Validation Loss: 0.9954,Validation Accuracy: 0.6819, Val F1: 0.6292
+ Epoch [71/250], Train Loss: 0.8179, Train Accuracy: 0.7281, Train F1: 0.7237, Validation Loss: 0.9402,Validation Accuracy: 0.6998, Val F1: 0.6331
+ Epoch [72/250], Train Loss: 0.8089, Train Accuracy: 0.7344, Train F1: 0.7295, Validation Loss: 0.9015,Validation Accuracy: 0.7216, Val F1: 0.6480
+ Epoch [73/250], Train Loss: 0.7911, Train Accuracy: 0.7434, Train F1: 0.7383, Validation Loss: 0.9580,Validation Accuracy: 0.6941, Val F1: 0.6321
+ Epoch [74/250], Train Loss: 0.8412, Train Accuracy: 0.7309, Train F1: 0.7257, Validation Loss: 0.9325,Validation Accuracy: 0.7054, Val F1: 0.6395
+ Epoch [75/250], Train Loss: 0.8072, Train Accuracy: 0.7359, Train F1: 0.7303, Validation Loss: 0.9682,Validation Accuracy: 0.7026, Val F1: 0.6279
+ Epoch [76/250], Train Loss: 0.8358, Train Accuracy: 0.7410, Train F1: 0.7363, Validation Loss: 0.9146,Validation Accuracy: 0.7058, Val F1: 0.6296
+ Epoch [77/250], Train Loss: 0.7753, Train Accuracy: 0.7480, Train F1: 0.7423, Validation Loss: 0.9305,Validation Accuracy: 0.7143, Val F1: 0.6509
+ Epoch [78/250], Train Loss: 0.7471, Train Accuracy: 0.7480, Train F1: 0.7424, Validation Loss: 0.9335,Validation Accuracy: 0.7200, Val F1: 0.6429
+ Epoch [79/250], Train Loss: 0.7870, Train Accuracy: 0.7496, Train F1: 0.7464, Validation Loss: 0.8490,Validation Accuracy: 0.7358, Val F1: 0.6618
+ Epoch [80/250], Train Loss: 0.7676, Train Accuracy: 0.7484, Train F1: 0.7433, Validation Loss: 0.9053,Validation Accuracy: 0.7176, Val F1: 0.6422
+ Epoch [81/250], Train Loss: 0.7812, Train Accuracy: 0.7387, Train F1: 0.7347, Validation Loss: 0.9298,Validation Accuracy: 0.7091, Val F1: 0.6339
+ Epoch [82/250], Train Loss: 0.7720, Train Accuracy: 0.7504, Train F1: 0.7469, Validation Loss: 0.9330,Validation Accuracy: 0.6994, Val F1: 0.6299
+ Epoch [83/250], Train Loss: 0.7778, Train Accuracy: 0.7488, Train F1: 0.7450, Validation Loss: 0.9452,Validation Accuracy: 0.7038, Val F1: 0.6344
+ Epoch [84/250], Train Loss: 0.7736, Train Accuracy: 0.7469, Train F1: 0.7432, Validation Loss: 0.9065,Validation Accuracy: 0.7115, Val F1: 0.6369
+ Epoch [85/250], Train Loss: 0.7973, Train Accuracy: 0.7375, Train F1: 0.7327, Validation Loss: 0.8932,Validation Accuracy: 0.7249, Val F1: 0.6560
+ Epoch [86/250], Train Loss: 0.7794, Train Accuracy: 0.7555, Train F1: 0.7486, Validation Loss: 0.9418,Validation Accuracy: 0.7050, Val F1: 0.6436
+ Epoch [87/250], Train Loss: 0.7562, Train Accuracy: 0.7508, Train F1: 0.7472, Validation Loss: 0.9897,Validation Accuracy: 0.7042, Val F1: 0.6331
+ Epoch [88/250], Train Loss: 0.7570, Train Accuracy: 0.7500, Train F1: 0.7447, Validation Loss: 0.8705,Validation Accuracy: 0.7269, Val F1: 0.6587
+ Epoch [89/250], Train Loss: 0.7130, Train Accuracy: 0.7656, Train F1: 0.7608, Validation Loss: 0.8713,Validation Accuracy: 0.7289, Val F1: 0.6655
+ Epoch [90/250], Train Loss: 0.7704, Train Accuracy: 0.7453, Train F1: 0.7408, Validation Loss: 0.9297,Validation Accuracy: 0.7107, Val F1: 0.6534
+ Epoch [91/250], Train Loss: 0.7501, Train Accuracy: 0.7512, Train F1: 0.7477, Validation Loss: 0.9943,Validation Accuracy: 0.6937, Val F1: 0.6239
+ Epoch [92/250], Train Loss: 0.7658, Train Accuracy: 0.7430, Train F1: 0.7389, Validation Loss: 0.8812,Validation Accuracy: 0.7212, Val F1: 0.6599
+ Epoch [93/250], Train Loss: 0.7273, Train Accuracy: 0.7598, Train F1: 0.7555, Validation Loss: 0.9796,Validation Accuracy: 0.6908, Val F1: 0.6212
+ Epoch [94/250], Train Loss: 0.7787, Train Accuracy: 0.7355, Train F1: 0.7322, Validation Loss: 0.9990,Validation Accuracy: 0.6912, Val F1: 0.6194
+ Epoch [95/250], Train Loss: 0.7444, Train Accuracy: 0.7465, Train F1: 0.7426, Validation Loss: 0.8961,Validation Accuracy: 0.7204, Val F1: 0.6509
+ Epoch [96/250], Train Loss: 0.7284, Train Accuracy: 0.7672, Train F1: 0.7630, Validation Loss: 0.9109,Validation Accuracy: 0.7249, Val F1: 0.6625
+ Epoch [97/250], Train Loss: 0.7104, Train Accuracy: 0.7609, Train F1: 0.7575, Validation Loss: 0.9360,Validation Accuracy: 0.7152, Val F1: 0.6436
+ Epoch [98/250], Train Loss: 0.7302, Train Accuracy: 0.7633, Train F1: 0.7605, Validation Loss: 0.8506,Validation Accuracy: 0.7468, Val F1: 0.6713
+ Epoch [99/250], Train Loss: 0.7040, Train Accuracy: 0.7688, Train F1: 0.7650, Validation Loss: 0.8597,Validation Accuracy: 0.7378, Val F1: 0.6725
+ Epoch [100/250], Train Loss: 0.7627, Train Accuracy: 0.7539, Train F1: 0.7499, Validation Loss: 0.9420,Validation Accuracy: 0.7208, Val F1: 0.6541
+ Epoch [101/250], Train Loss: 0.6732, Train Accuracy: 0.7777, Train F1: 0.7746, Validation Loss: 0.8631,Validation Accuracy: 0.7326, Val F1: 0.6596
+ Epoch [102/250], Train Loss: 0.6834, Train Accuracy: 0.7664, Train F1: 0.7630, Validation Loss: 0.9029,Validation Accuracy: 0.7184, Val F1: 0.6495
+ Epoch [103/250], Train Loss: 0.6959, Train Accuracy: 0.7691, Train F1: 0.7655, Validation Loss: 0.8881,Validation Accuracy: 0.7382, Val F1: 0.6738
+ Epoch [104/250], Train Loss: 0.7190, Train Accuracy: 0.7613, Train F1: 0.7564, Validation Loss: 0.9953,Validation Accuracy: 0.7071, Val F1: 0.6336
+ Epoch [105/250], Train Loss: 0.7485, Train Accuracy: 0.7477, Train F1: 0.7423, Validation Loss: 0.8628,Validation Accuracy: 0.7374, Val F1: 0.6720
+ Epoch [106/250], Train Loss: 0.7247, Train Accuracy: 0.7621, Train F1: 0.7598, Validation Loss: 0.8268,Validation Accuracy: 0.7419, Val F1: 0.6707
+ Epoch [107/250], Train Loss: 0.7477, Train Accuracy: 0.7570, Train F1: 0.7521, Validation Loss: 0.9193,Validation Accuracy: 0.7314, Val F1: 0.6544
+ Epoch [108/250], Train Loss: 0.6814, Train Accuracy: 0.7762, Train F1: 0.7712, Validation Loss: 0.9615,Validation Accuracy: 0.7095, Val F1: 0.6368
+ Epoch [109/250], Train Loss: 0.6997, Train Accuracy: 0.7688, Train F1: 0.7651, Validation Loss: 0.8567,Validation Accuracy: 0.7346, Val F1: 0.6546
+ Epoch [110/250], Train Loss: 0.7318, Train Accuracy: 0.7582, Train F1: 0.7537, Validation Loss: 0.9163,Validation Accuracy: 0.7139, Val F1: 0.6498
+ Epoch [111/250], Train Loss: 0.6826, Train Accuracy: 0.7750, Train F1: 0.7706, Validation Loss: 0.9152,Validation Accuracy: 0.7180, Val F1: 0.6485
+ Epoch [112/250], Train Loss: 0.7277, Train Accuracy: 0.7531, Train F1: 0.7495, Validation Loss: 0.8652,Validation Accuracy: 0.7269, Val F1: 0.6631
+ Epoch [113/250], Train Loss: 0.6707, Train Accuracy: 0.7844, Train F1: 0.7802, Validation Loss: 0.8593,Validation Accuracy: 0.7447, Val F1: 0.6752
+ Epoch [114/250], Train Loss: 0.6775, Train Accuracy: 0.7723, Train F1: 0.7700, Validation Loss: 0.8807,Validation Accuracy: 0.7297, Val F1: 0.6606
+ Epoch [115/250], Train Loss: 0.6918, Train Accuracy: 0.7727, Train F1: 0.7682, Validation Loss: 0.8498,Validation Accuracy: 0.7269, Val F1: 0.6635
+ Epoch [116/250], Train Loss: 0.7086, Train Accuracy: 0.7637, Train F1: 0.7603, Validation Loss: 0.8936,Validation Accuracy: 0.7192, Val F1: 0.6536
+ Epoch [117/250], Train Loss: 0.6887, Train Accuracy: 0.7707, Train F1: 0.7676, Validation Loss: 0.9093,Validation Accuracy: 0.7208, Val F1: 0.6494
+ Epoch [118/250], Train Loss: 0.6723, Train Accuracy: 0.7773, Train F1: 0.7739, Validation Loss: 0.8137,Validation Accuracy: 0.7472, Val F1: 0.6794
+ Epoch [119/250], Train Loss: 0.6680, Train Accuracy: 0.7695, Train F1: 0.7673, Validation Loss: 0.8857,Validation Accuracy: 0.7301, Val F1: 0.6674
+ Epoch [120/250], Train Loss: 0.6595, Train Accuracy: 0.7844, Train F1: 0.7802, Validation Loss: 0.8715,Validation Accuracy: 0.7306, Val F1: 0.6603
+ Epoch [121/250], Train Loss: 0.6847, Train Accuracy: 0.7770, Train F1: 0.7735, Validation Loss: 0.8491,Validation Accuracy: 0.7395, Val F1: 0.6749
+ Epoch [122/250], Train Loss: 0.6901, Train Accuracy: 0.7680, Train F1: 0.7642, Validation Loss: 0.8417,Validation Accuracy: 0.7391, Val F1: 0.6764
+ Epoch [123/250], Train Loss: 0.6894, Train Accuracy: 0.7695, Train F1: 0.7666, Validation Loss: 0.8525,Validation Accuracy: 0.7358, Val F1: 0.6710
+ Epoch [124/250], Train Loss: 0.6631, Train Accuracy: 0.7727, Train F1: 0.7691, Validation Loss: 0.8332,Validation Accuracy: 0.7480, Val F1: 0.6813
+ Epoch [125/250], Train Loss: 0.6759, Train Accuracy: 0.7734, Train F1: 0.7713, Validation Loss: 0.8565,Validation Accuracy: 0.7265, Val F1: 0.6615
+ Epoch [126/250], Train Loss: 0.6688, Train Accuracy: 0.7758, Train F1: 0.7718, Validation Loss: 0.8860,Validation Accuracy: 0.7293, Val F1: 0.6729
+ Epoch [127/250], Train Loss: 0.6814, Train Accuracy: 0.7695, Train F1: 0.7657, Validation Loss: 0.8692,Validation Accuracy: 0.7330, Val F1: 0.6581
+ Epoch [128/250], Train Loss: 0.6363, Train Accuracy: 0.7859, Train F1: 0.7818, Validation Loss: 0.7597,Validation Accuracy: 0.7711, Val F1: 0.6895
+ Epoch [129/250], Train Loss: 0.6601, Train Accuracy: 0.7785, Train F1: 0.7754, Validation Loss: 1.0298,Validation Accuracy: 0.6872, Val F1: 0.6285
+ Epoch [130/250], Train Loss: 0.6846, Train Accuracy: 0.7777, Train F1: 0.7735, Validation Loss: 0.8747,Validation Accuracy: 0.7176, Val F1: 0.6511
+ Epoch [131/250], Train Loss: 0.6466, Train Accuracy: 0.7840, Train F1: 0.7816, Validation Loss: 0.8867,Validation Accuracy: 0.7306, Val F1: 0.6574
+ Epoch [132/250], Train Loss: 0.6946, Train Accuracy: 0.7750, Train F1: 0.7703, Validation Loss: 0.8477,Validation Accuracy: 0.7229, Val F1: 0.6589
+ Epoch [133/250], Train Loss: 0.6382, Train Accuracy: 0.7922, Train F1: 0.7895, Validation Loss: 0.8087,Validation Accuracy: 0.7536, Val F1: 0.6753
+ Epoch [134/250], Train Loss: 0.6526, Train Accuracy: 0.7762, Train F1: 0.7744, Validation Loss: 0.8089,Validation Accuracy: 0.7541, Val F1: 0.6874
+ Epoch [135/250], Train Loss: 0.6550, Train Accuracy: 0.7727, Train F1: 0.7697, Validation Loss: 0.8651,Validation Accuracy: 0.7362, Val F1: 0.6747
+ Epoch [136/250], Train Loss: 0.6805, Train Accuracy: 0.7719, Train F1: 0.7689, Validation Loss: 0.8080,Validation Accuracy: 0.7642, Val F1: 0.6886
+ Epoch [137/250], Train Loss: 0.6519, Train Accuracy: 0.7770, Train F1: 0.7744, Validation Loss: 0.8993,Validation Accuracy: 0.7322, Val F1: 0.6709
+ Epoch [138/250], Train Loss: 0.6439, Train Accuracy: 0.7891, Train F1: 0.7862, Validation Loss: 0.8396,Validation Accuracy: 0.7484, Val F1: 0.6906
+ Epoch [139/250], Train Loss: 0.6369, Train Accuracy: 0.7891, Train F1: 0.7860, Validation Loss: 0.8481,Validation Accuracy: 0.7476, Val F1: 0.6850
+ Epoch [140/250], Train Loss: 0.6782, Train Accuracy: 0.7648, Train F1: 0.7621, Validation Loss: 0.8335,Validation Accuracy: 0.7528, Val F1: 0.6862
+ Epoch [141/250], Train Loss: 0.6226, Train Accuracy: 0.7891, Train F1: 0.7830, Validation Loss: 0.8187,Validation Accuracy: 0.7528, Val F1: 0.6894
+ Epoch [142/250], Train Loss: 0.6515, Train Accuracy: 0.7891, Train F1: 0.7856, Validation Loss: 0.8876,Validation Accuracy: 0.7350, Val F1: 0.6714
+ Epoch [143/250], Train Loss: 0.6701, Train Accuracy: 0.7809, Train F1: 0.7789, Validation Loss: 0.8512,Validation Accuracy: 0.7399, Val F1: 0.6719
+ Epoch [144/250], Train Loss: 0.6219, Train Accuracy: 0.7887, Train F1: 0.7859, Validation Loss: 0.8752,Validation Accuracy: 0.7212, Val F1: 0.6574
+ Epoch [145/250], Train Loss: 0.6343, Train Accuracy: 0.7895, Train F1: 0.7869, Validation Loss: 0.8855,Validation Accuracy: 0.7277, Val F1: 0.6663
+ Epoch [146/250], Train Loss: 0.6185, Train Accuracy: 0.7941, Train F1: 0.7908, Validation Loss: 0.8443,Validation Accuracy: 0.7476, Val F1: 0.6829
+ Epoch [147/250], Train Loss: 0.6245, Train Accuracy: 0.7906, Train F1: 0.7889, Validation Loss: 0.8155,Validation Accuracy: 0.7378, Val F1: 0.6701
+ Epoch [148/250], Train Loss: 0.6254, Train Accuracy: 0.7887, Train F1: 0.7854, Validation Loss: 0.8499,Validation Accuracy: 0.7581, Val F1: 0.6851
+ Epoch [149/250], Train Loss: 0.6937, Train Accuracy: 0.7664, Train F1: 0.7634, Validation Loss: 0.8746,Validation Accuracy: 0.7156, Val F1: 0.6591
+ Epoch [150/250], Train Loss: 0.6327, Train Accuracy: 0.7984, Train F1: 0.7956, Validation Loss: 0.8048,Validation Accuracy: 0.7528, Val F1: 0.6907
+ Epoch [151/250], Train Loss: 0.6460, Train Accuracy: 0.7926, Train F1: 0.7890, Validation Loss: 0.7784,Validation Accuracy: 0.7536, Val F1: 0.6866
+ Epoch [152/250], Train Loss: 0.6072, Train Accuracy: 0.7965, Train F1: 0.7944, Validation Loss: 0.8924,Validation Accuracy: 0.7257, Val F1: 0.6563
+ Epoch [153/250], Train Loss: 0.6291, Train Accuracy: 0.8000, Train F1: 0.7963, Validation Loss: 0.8539,Validation Accuracy: 0.7293, Val F1: 0.6672
+ Epoch [154/250], Train Loss: 0.6135, Train Accuracy: 0.7902, Train F1: 0.7870, Validation Loss: 0.8196,Validation Accuracy: 0.7387, Val F1: 0.6782
+ Epoch [155/250], Train Loss: 0.6620, Train Accuracy: 0.7793, Train F1: 0.7760, Validation Loss: 0.9233,Validation Accuracy: 0.7184, Val F1: 0.6521
+ Epoch [156/250], Train Loss: 0.6354, Train Accuracy: 0.7859, Train F1: 0.7815, Validation Loss: 0.8040,Validation Accuracy: 0.7504, Val F1: 0.6918
+ Epoch [157/250], Train Loss: 0.6361, Train Accuracy: 0.7855, Train F1: 0.7815, Validation Loss: 0.8824,Validation Accuracy: 0.7273, Val F1: 0.6664
+ Epoch [158/250], Train Loss: 0.6431, Train Accuracy: 0.7801, Train F1: 0.7783, Validation Loss: 0.8409,Validation Accuracy: 0.7508, Val F1: 0.6824
+ Epoch [159/250], Train Loss: 0.6284, Train Accuracy: 0.7852, Train F1: 0.7819, Validation Loss: 0.8116,Validation Accuracy: 0.7557, Val F1: 0.6891
+ Epoch [160/250], Train Loss: 0.5893, Train Accuracy: 0.8016, Train F1: 0.7985, Validation Loss: 0.9477,Validation Accuracy: 0.7143, Val F1: 0.6507
+ Epoch [161/250], Train Loss: 0.6651, Train Accuracy: 0.7758, Train F1: 0.7708, Validation Loss: 0.8039,Validation Accuracy: 0.7439, Val F1: 0.6829
+ Epoch [162/250], Train Loss: 0.6007, Train Accuracy: 0.7910, Train F1: 0.7885, Validation Loss: 0.7790,Validation Accuracy: 0.7561, Val F1: 0.6933
+ Epoch [163/250], Train Loss: 0.5842, Train Accuracy: 0.8098, Train F1: 0.8074, Validation Loss: 0.8123,Validation Accuracy: 0.7573, Val F1: 0.6949
+ Epoch [164/250], Train Loss: 0.6219, Train Accuracy: 0.7926, Train F1: 0.7892, Validation Loss: 0.8477,Validation Accuracy: 0.7451, Val F1: 0.6746
+ Epoch [165/250], Train Loss: 0.6030, Train Accuracy: 0.7941, Train F1: 0.7913, Validation Loss: 0.9520,Validation Accuracy: 0.7119, Val F1: 0.6430
+ Epoch [166/250], Train Loss: 0.5897, Train Accuracy: 0.7957, Train F1: 0.7928, Validation Loss: 0.8225,Validation Accuracy: 0.7488, Val F1: 0.6864
+ Epoch [167/250], Train Loss: 0.6078, Train Accuracy: 0.7891, Train F1: 0.7871, Validation Loss: 0.8489,Validation Accuracy: 0.7492, Val F1: 0.6849
+ Epoch [168/250], Train Loss: 0.6163, Train Accuracy: 0.7937, Train F1: 0.7909, Validation Loss: 0.8217,Validation Accuracy: 0.7468, Val F1: 0.6794
+ Epoch [169/250], Train Loss: 0.6097, Train Accuracy: 0.8020, Train F1: 0.7987, Validation Loss: 0.8202,Validation Accuracy: 0.7528, Val F1: 0.6908
+ Epoch [170/250], Train Loss: 0.6075, Train Accuracy: 0.7867, Train F1: 0.7841, Validation Loss: 0.8052,Validation Accuracy: 0.7622, Val F1: 0.7028
+ Epoch [171/250], Train Loss: 0.5867, Train Accuracy: 0.8051, Train F1: 0.8019, Validation Loss: 0.8412,Validation Accuracy: 0.7516, Val F1: 0.6828
+ Epoch [172/250], Train Loss: 0.5709, Train Accuracy: 0.8023, Train F1: 0.7983, Validation Loss: 0.8134,Validation Accuracy: 0.7524, Val F1: 0.6843
+ Epoch [173/250], Train Loss: 0.5770, Train Accuracy: 0.8008, Train F1: 0.7981, Validation Loss: 0.8990,Validation Accuracy: 0.7350, Val F1: 0.6755
+ Epoch [174/250], Train Loss: 0.5915, Train Accuracy: 0.7891, Train F1: 0.7851, Validation Loss: 0.8845,Validation Accuracy: 0.7427, Val F1: 0.6732
+ Epoch [175/250], Train Loss: 0.5927, Train Accuracy: 0.7992, Train F1: 0.7960, Validation Loss: 0.8562,Validation Accuracy: 0.7484, Val F1: 0.6788
+ Epoch [176/250], Train Loss: 0.6089, Train Accuracy: 0.7980, Train F1: 0.7939, Validation Loss: 0.7857,Validation Accuracy: 0.7682, Val F1: 0.7040
+ Epoch [177/250], Train Loss: 0.5939, Train Accuracy: 0.7895, Train F1: 0.7861, Validation Loss: 0.8736,Validation Accuracy: 0.7512, Val F1: 0.6818
+ Epoch [178/250], Train Loss: 0.6152, Train Accuracy: 0.7832, Train F1: 0.7792, Validation Loss: 0.8715,Validation Accuracy: 0.7354, Val F1: 0.6707
+ Epoch [179/250], Train Loss: 0.5878, Train Accuracy: 0.7996, Train F1: 0.7953, Validation Loss: 0.8361,Validation Accuracy: 0.7541, Val F1: 0.6852
+ Epoch [180/250], Train Loss: 0.5778, Train Accuracy: 0.8090, Train F1: 0.8054, Validation Loss: 0.9368,Validation Accuracy: 0.7285, Val F1: 0.6559
+ Epoch [181/250], Train Loss: 0.5768, Train Accuracy: 0.7902, Train F1: 0.7888, Validation Loss: 0.8030,Validation Accuracy: 0.7609, Val F1: 0.6913
+ Epoch [182/250], Train Loss: 0.6075, Train Accuracy: 0.7934, Train F1: 0.7907, Validation Loss: 0.8945,Validation Accuracy: 0.7220, Val F1: 0.6585
+ Epoch [183/250], Train Loss: 0.6103, Train Accuracy: 0.7934, Train F1: 0.7896, Validation Loss: 0.7855,Validation Accuracy: 0.7642, Val F1: 0.6888
+ Epoch [184/250], Train Loss: 0.5836, Train Accuracy: 0.8027, Train F1: 0.7996, Validation Loss: 0.8585,Validation Accuracy: 0.7370, Val F1: 0.6763
+ Epoch [185/250], Train Loss: 0.6343, Train Accuracy: 0.7883, Train F1: 0.7841, Validation Loss: 0.8238,Validation Accuracy: 0.7459, Val F1: 0.6802
+ Epoch [186/250], Train Loss: 0.5954, Train Accuracy: 0.7934, Train F1: 0.7910, Validation Loss: 0.8812,Validation Accuracy: 0.7310, Val F1: 0.6614
+ Epoch [187/250], Train Loss: 0.6171, Train Accuracy: 0.7879, Train F1: 0.7850, Validation Loss: 0.7850,Validation Accuracy: 0.7601, Val F1: 0.6903
+ Epoch [188/250], Train Loss: 0.5782, Train Accuracy: 0.8039, Train F1: 0.8014, Validation Loss: 0.8307,Validation Accuracy: 0.7451, Val F1: 0.6776
+ Epoch [189/250], Train Loss: 0.5376, Train Accuracy: 0.8207, Train F1: 0.8176, Validation Loss: 0.7815,Validation Accuracy: 0.7545, Val F1: 0.6897
+ Epoch [190/250], Train Loss: 0.5755, Train Accuracy: 0.8035, Train F1: 0.8001, Validation Loss: 0.7600,Validation Accuracy: 0.7654, Val F1: 0.6995
+ Epoch [191/250], Train Loss: 0.5593, Train Accuracy: 0.8145, Train F1: 0.8115, Validation Loss: 0.7596,Validation Accuracy: 0.7771, Val F1: 0.6987
+ Epoch [192/250], Train Loss: 0.5743, Train Accuracy: 0.8043, Train F1: 0.8015, Validation Loss: 0.8505,Validation Accuracy: 0.7451, Val F1: 0.6836
+ Epoch [193/250], Train Loss: 0.6070, Train Accuracy: 0.7895, Train F1: 0.7870, Validation Loss: 0.8001,Validation Accuracy: 0.7589, Val F1: 0.6943
+ Epoch [194/250], Train Loss: 0.5941, Train Accuracy: 0.8004, Train F1: 0.7985, Validation Loss: 0.8429,Validation Accuracy: 0.7472, Val F1: 0.6797
+ Epoch [195/250], Train Loss: 0.6145, Train Accuracy: 0.7926, Train F1: 0.7891, Validation Loss: 0.8024,Validation Accuracy: 0.7630, Val F1: 0.6893
+ Epoch [196/250], Train Loss: 0.6032, Train Accuracy: 0.7937, Train F1: 0.7900, Validation Loss: 0.8805,Validation Accuracy: 0.7382, Val F1: 0.6701
+ Epoch [197/250], Train Loss: 0.5618, Train Accuracy: 0.8078, Train F1: 0.8043, Validation Loss: 0.7888,Validation Accuracy: 0.7581, Val F1: 0.6847
+ Epoch [198/250], Train Loss: 0.6055, Train Accuracy: 0.7969, Train F1: 0.7946, Validation Loss: 0.8995,Validation Accuracy: 0.7139, Val F1: 0.6481
+ Epoch [199/250], Train Loss: 0.5610, Train Accuracy: 0.8066, Train F1: 0.8046, Validation Loss: 0.8011,Validation Accuracy: 0.7492, Val F1: 0.6832
+ Epoch [200/250], Train Loss: 0.5578, Train Accuracy: 0.8113, Train F1: 0.8083, Validation Loss: 0.7959,Validation Accuracy: 0.7674, Val F1: 0.6955
+ Epoch [201/250], Train Loss: 0.5827, Train Accuracy: 0.8059, Train F1: 0.8031, Validation Loss: 0.8362,Validation Accuracy: 0.7459, Val F1: 0.6855
+ Epoch [202/250], Train Loss: 0.5615, Train Accuracy: 0.7949, Train F1: 0.7931, Validation Loss: 0.7823,Validation Accuracy: 0.7626, Val F1: 0.7048
+ Epoch [203/250], Train Loss: 0.5434, Train Accuracy: 0.8137, Train F1: 0.8110, Validation Loss: 0.8113,Validation Accuracy: 0.7557, Val F1: 0.6864
+ Epoch [204/250], Train Loss: 0.5634, Train Accuracy: 0.8000, Train F1: 0.7964, Validation Loss: 0.8198,Validation Accuracy: 0.7589, Val F1: 0.6985
+ Epoch [205/250], Train Loss: 0.5592, Train Accuracy: 0.7980, Train F1: 0.7948, Validation Loss: 0.7907,Validation Accuracy: 0.7638, Val F1: 0.6974
+ Epoch [206/250], Train Loss: 0.5640, Train Accuracy: 0.8098, Train F1: 0.8064, Validation Loss: 0.8126,Validation Accuracy: 0.7609, Val F1: 0.7068
+ Epoch [207/250], Train Loss: 0.6065, Train Accuracy: 0.7992, Train F1: 0.7969, Validation Loss: 0.8284,Validation Accuracy: 0.7561, Val F1: 0.6796
+ Epoch [208/250], Train Loss: 0.5997, Train Accuracy: 0.7910, Train F1: 0.7884, Validation Loss: 0.8429,Validation Accuracy: 0.7435, Val F1: 0.6823
+ Epoch [209/250], Train Loss: 0.5708, Train Accuracy: 0.8023, Train F1: 0.7999, Validation Loss: 0.8251,Validation Accuracy: 0.7569, Val F1: 0.6897
+ Epoch [210/250], Train Loss: 0.5911, Train Accuracy: 0.8000, Train F1: 0.7965, Validation Loss: 0.9212,Validation Accuracy: 0.7334, Val F1: 0.6639
+ Epoch [211/250], Train Loss: 0.5795, Train Accuracy: 0.7902, Train F1: 0.7864, Validation Loss: 0.8764,Validation Accuracy: 0.7350, Val F1: 0.6645
+ Epoch [212/250], Train Loss: 0.5705, Train Accuracy: 0.8031, Train F1: 0.8002, Validation Loss: 0.8318,Validation Accuracy: 0.7443, Val F1: 0.6836
+ Epoch [213/250], Train Loss: 0.5556, Train Accuracy: 0.8113, Train F1: 0.8070, Validation Loss: 0.8682,Validation Accuracy: 0.7382, Val F1: 0.6736
+ Epoch [214/250], Train Loss: 0.5853, Train Accuracy: 0.8074, Train F1: 0.8055, Validation Loss: 0.8196,Validation Accuracy: 0.7553, Val F1: 0.6800
+ Epoch [215/250], Train Loss: 0.5453, Train Accuracy: 0.8094, Train F1: 0.8069, Validation Loss: 0.8048,Validation Accuracy: 0.7630, Val F1: 0.6955
+ Epoch [216/250], Train Loss: 0.5521, Train Accuracy: 0.8125, Train F1: 0.8095, Validation Loss: 0.8137,Validation Accuracy: 0.7601, Val F1: 0.6995
+ Epoch [217/250], Train Loss: 0.5408, Train Accuracy: 0.8227, Train F1: 0.8197, Validation Loss: 0.8173,Validation Accuracy: 0.7516, Val F1: 0.6894
+ Epoch [218/250], Train Loss: 0.5621, Train Accuracy: 0.8109, Train F1: 0.8079, Validation Loss: 0.8875,Validation Accuracy: 0.7249, Val F1: 0.6615
+ Epoch [219/250], Train Loss: 0.5753, Train Accuracy: 0.8016, Train F1: 0.7995, Validation Loss: 0.8805,Validation Accuracy: 0.7455, Val F1: 0.6873
+ Epoch [220/250], Train Loss: 0.5367, Train Accuracy: 0.8164, Train F1: 0.8134, Validation Loss: 0.7894,Validation Accuracy: 0.7642, Val F1: 0.6960
+ Epoch [221/250], Train Loss: 0.5684, Train Accuracy: 0.8059, Train F1: 0.8026, Validation Loss: 0.8984,Validation Accuracy: 0.7289, Val F1: 0.6706
+ Epoch [222/250], Train Loss: 0.5374, Train Accuracy: 0.8160, Train F1: 0.8139, Validation Loss: 0.7873,Validation Accuracy: 0.7597, Val F1: 0.6870
+ Epoch [223/250], Train Loss: 0.5708, Train Accuracy: 0.8004, Train F1: 0.7986, Validation Loss: 0.8281,Validation Accuracy: 0.7699, Val F1: 0.7054
+ Epoch [224/250], Train Loss: 0.5796, Train Accuracy: 0.7996, Train F1: 0.7951, Validation Loss: 0.8879,Validation Accuracy: 0.7350, Val F1: 0.6636
+ Epoch [225/250], Train Loss: 0.6097, Train Accuracy: 0.7953, Train F1: 0.7928, Validation Loss: 0.7984,Validation Accuracy: 0.7573, Val F1: 0.6916
+ Epoch [226/250], Train Loss: 0.5573, Train Accuracy: 0.8070, Train F1: 0.8051, Validation Loss: 0.8215,Validation Accuracy: 0.7577, Val F1: 0.6903
+ Epoch [227/250], Train Loss: 0.5644, Train Accuracy: 0.8137, Train F1: 0.8106, Validation Loss: 0.8629,Validation Accuracy: 0.7492, Val F1: 0.6852
+ Epoch [228/250], Train Loss: 0.5722, Train Accuracy: 0.8078, Train F1: 0.8046, Validation Loss: 0.8899,Validation Accuracy: 0.7395, Val F1: 0.6675
+ Epoch [229/250], Train Loss: 0.5784, Train Accuracy: 0.8109, Train F1: 0.8076, Validation Loss: 0.7645,Validation Accuracy: 0.7666, Val F1: 0.7051
+ Epoch [230/250], Train Loss: 0.5725, Train Accuracy: 0.8109, Train F1: 0.8084, Validation Loss: 0.8470,Validation Accuracy: 0.7346, Val F1: 0.6733
+ Epoch [231/250], Train Loss: 0.5526, Train Accuracy: 0.8051, Train F1: 0.8030, Validation Loss: 0.8751,Validation Accuracy: 0.7265, Val F1: 0.6633
+ Epoch [232/250], Train Loss: 0.5669, Train Accuracy: 0.8051, Train F1: 0.8009, Validation Loss: 0.7718,Validation Accuracy: 0.7658, Val F1: 0.6956
+ Epoch [233/250], Train Loss: 0.5605, Train Accuracy: 0.8129, Train F1: 0.8102, Validation Loss: 0.8030,Validation Accuracy: 0.7626, Val F1: 0.6909
+ Epoch [234/250], Train Loss: 0.5251, Train Accuracy: 0.8219, Train F1: 0.8193, Validation Loss: 0.8278,Validation Accuracy: 0.7557, Val F1: 0.6841
+ Epoch [235/250], Train Loss: 0.5452, Train Accuracy: 0.8137, Train F1: 0.8115, Validation Loss: 0.8398,Validation Accuracy: 0.7524, Val F1: 0.6874
+ Epoch [236/250], Train Loss: 0.5453, Train Accuracy: 0.8141, Train F1: 0.8120, Validation Loss: 0.8215,Validation Accuracy: 0.7435, Val F1: 0.6777
+ Epoch [237/250], Train Loss: 0.5233, Train Accuracy: 0.8184, Train F1: 0.8152, Validation Loss: 0.7926,Validation Accuracy: 0.7618, Val F1: 0.6830
+ Epoch [238/250], Train Loss: 0.5489, Train Accuracy: 0.8098, Train F1: 0.8078, Validation Loss: 0.7960,Validation Accuracy: 0.7597, Val F1: 0.6962
+ Epoch [239/250], Train Loss: 0.5475, Train Accuracy: 0.8113, Train F1: 0.8084, Validation Loss: 0.8370,Validation Accuracy: 0.7565, Val F1: 0.6851
+ Epoch [240/250], Train Loss: 0.5465, Train Accuracy: 0.8141, Train F1: 0.8118, Validation Loss: 0.7856,Validation Accuracy: 0.7646, Val F1: 0.7057
+ Epoch [241/250], Train Loss: 0.5543, Train Accuracy: 0.8059, Train F1: 0.8017, Validation Loss: 0.7705,Validation Accuracy: 0.7634, Val F1: 0.6948
+ Epoch [242/250], Train Loss: 0.5464, Train Accuracy: 0.8098, Train F1: 0.8072, Validation Loss: 0.8015,Validation Accuracy: 0.7593, Val F1: 0.6900
+ Epoch [243/250], Train Loss: 0.5534, Train Accuracy: 0.8090, Train F1: 0.8052, Validation Loss: 0.8575,Validation Accuracy: 0.7468, Val F1: 0.6772
+ Epoch [244/250], Train Loss: 0.5565, Train Accuracy: 0.8086, Train F1: 0.8050, Validation Loss: 0.7653,Validation Accuracy: 0.7731, Val F1: 0.7062
+ Epoch [245/250], Train Loss: 0.5456, Train Accuracy: 0.8129, Train F1: 0.8110, Validation Loss: 0.8605,Validation Accuracy: 0.7415, Val F1: 0.6718
+ Epoch [246/250], Train Loss: 0.5663, Train Accuracy: 0.8074, Train F1: 0.8059, Validation Loss: 0.7974,Validation Accuracy: 0.7638, Val F1: 0.7005
+ Epoch [247/250], Train Loss: 0.5356, Train Accuracy: 0.8148, Train F1: 0.8107, Validation Loss: 0.7490,Validation Accuracy: 0.7751, Val F1: 0.7119
+ Epoch [248/250], Train Loss: 0.5185, Train Accuracy: 0.8227, Train F1: 0.8203, Validation Loss: 0.7977,Validation Accuracy: 0.7601, Val F1: 0.6931
+ Epoch [249/250], Train Loss: 0.5473, Train Accuracy: 0.8109, Train F1: 0.8089, Validation Loss: 0.7869,Validation Accuracy: 0.7601, Val F1: 0.6948
+ Epoch [250/250], Train Loss: 0.5562, Train Accuracy: 0.8070, Train F1: 0.8038, Validation Loss: 0.8027,Validation Accuracy: 0.7605, Val F1: 0.6922
+Validation accuracy: 0.11102107 0.24878444 0.27714749 0.32252836 0.33914100 0.41572123 0.41815235 0.44084279 0.49594814 0.51296596 0.49959481 0.43679092 0.51175041 0.53484603 0.50850891 0.55064830 0.53403566 0.55307942 0.55388979 0.56807131 0.61061588 0.54254457 0.60575365 0.58792545 0.63857374 0.59197731 0.62682334 0.57131280 0.62965964 0.62236629 0.62439222 0.62925446 0.63168558 0.67990276 0.64789303 0.67585089 0.65923825 0.68476499 0.68233387 0.68233387 0.65113452 0.67828201 0.66653160 0.67220421 0.68395462 0.63047002 0.67504052 0.70299838 0.64667747 0.69448947 0.68841167 0.66085900 0.69246353 0.69043760 0.69367909 0.69408428 0.69489465 0.68071313 0.65316045 0.68679092 0.72163695 0.71231767 0.70097245 0.70218801 0.67828201 0.66166937 0.70988655 0.69894652 0.68719611 0.68192869 0.69975689 0.72163695 0.69408428 0.70542950 0.70259319 0.70583468 0.71434360 0.72001621 0.73581848 0.71758509 0.70907618 0.69935170 0.70380875 0.71150729 0.72487844 0.70502431 0.70421394 0.72690438 0.72893031 0.71069692 0.69367909 0.72123177 0.69084279 0.69124797 0.72042139 0.72487844 0.71515397 0.74675851 0.73784441 0.72082658 0.73257699 0.71839546 0.73824959 0.70705024 0.73743922 0.74189627 0.73136143 0.70948136 0.73460292 0.71393841 0.71799028 0.72690438 0.74473258 0.72974068 0.72690438 0.71920583 0.72082658 0.74716370 0.73014587 0.73055105 0.73946515 0.73905997 0.73581848 0.74797407 0.72649919 0.72933549 0.73298217 0.77106969 0.68719611 0.71758509 0.73055105 0.72285251 0.75364668 0.75405186 0.73622366 0.76418152 0.73217180 0.74837925 0.74756888 0.75283630 0.75283630 0.73500810 0.73987034 0.72123177 0.72771475 0.74756888 0.73784441 0.75810373 0.71555916 0.75283630 0.75364668 0.72568882 0.72933549 0.73865478 0.71839546 0.75040519 0.72730956 0.75081037 0.75567261 0.71434360 0.74392220 0.75607780 0.75729335 0.74513776 0.71191248 0.74878444 0.74918963 0.74675851 0.75283630 0.76215559 0.75162075 0.75243112 0.73500810 0.74270665 0.74837925 0.76823339 0.75121556 0.73541329 0.75405186 0.72852512 0.76094003 0.72204214 0.76418152 0.73703404 0.74594814 0.73095624 0.76012966 0.74513776 0.75445705 0.76539708 0.77714749 0.74513776 0.75891410 0.74716370 0.76296596 0.73824959 0.75810373 0.71393841 0.74918963 0.76742301 0.74594814 0.76256078 0.75567261 0.75891410 0.76377634 0.76094003 0.75607780 0.74351702 0.75688817 0.73338736 0.73500810 0.74432739 0.73824959 0.75526742 0.76296596 0.76012966 0.75162075 0.72487844 0.74554295 0.76418152 0.72893031 0.75972447 0.76985413 0.73500810 0.75729335 0.75769854 0.74918963 0.73946515 0.76661264 0.73460292 0.72649919 0.76580227 0.76256078 0.75567261 0.75243112 0.74351702 0.76175041 0.75972447 0.75648298 0.76458671 0.76337115 0.75931929 0.74675851 0.77309562 0.74149109 0.76377634 0.77512156 0.76012966 0.76012966 0.76053485
+Train accuracy: 0.03710938 0.16406250 0.25429687 0.30703125 0.33164063 0.39218750 0.40976563 0.44804688 0.48671875 0.48828125 0.49804688 0.50000000 0.50039062 0.52070313 0.54414063 0.52460938 0.56093750 0.57695312 0.58007812 0.57226562 0.58750000 0.60546875 0.60195312 0.61875000 0.62187500 0.60039062 0.61289063 0.63828125 0.65000000 0.65937500 0.66406250 0.64296875 0.65546875 0.69179687 0.67734375 0.65664062 0.66562500 0.64179688 0.66992188 0.68789062 0.68984375 0.69179687 0.68828125 0.68125000 0.70429688 0.71914062 0.70585937 0.67968750 0.70273438 0.71132812 0.71093750 0.70898438 0.70117188 0.72421875 0.72460938 0.70898438 0.71093750 0.72070312 0.73828125 0.73085937 0.72421875 0.71445313 0.72968750 0.75078125 0.72773438 0.72265625 0.73398438 0.72617188 0.72617188 0.72265625 0.72812500 0.73437500 0.74335938 0.73085937 0.73593750 0.74101562 0.74804688 0.74804688 0.74960938 0.74843750 0.73867187 0.75039062 0.74882812 0.74687500 0.73750000 0.75546875 0.75078125 0.75000000 0.76562500 0.74531250 0.75117188 0.74296875 0.75976562 0.73554688 0.74648437 0.76718750 0.76093750 0.76328125 0.76875000 0.75390625 0.77773437 0.76640625 0.76914063 0.76132813 0.74765625 0.76210937 0.75703125 0.77617187 0.76875000 0.75820312 0.77500000 0.75312500 0.78437500 0.77226562 0.77265625 0.76367188 0.77070313 0.77734375 0.76953125 0.78437500 0.77695313 0.76796875 0.76953125 0.77265625 0.77343750 0.77578125 0.76953125 0.78593750 0.77851563 0.77773437 0.78398437 0.77500000 0.79218750 0.77617187 0.77265625 0.77187500 0.77695313 0.78906250 0.78906250 0.76484375 0.78906250 0.78906250 0.78085938 0.78867188 0.78945312 0.79414063 0.79062500 0.78867188 0.76640625 0.79843750 0.79257813 0.79648438 0.80000000 0.79023438 0.77929688 0.78593750 0.78554687 0.78007812 0.78515625 0.80156250 0.77578125 0.79101562 0.80976563 0.79257813 0.79414063 0.79570312 0.78906250 0.79375000 0.80195313 0.78671875 0.80507812 0.80234375 0.80078125 0.78906250 0.79921875 0.79804688 0.78945312 0.78320312 0.79960937 0.80898437 0.79023438 0.79335937 0.79335937 0.80273438 0.78828125 0.79335937 0.78789062 0.80390625 0.82070312 0.80351562 0.81445312 0.80429688 0.78945312 0.80039063 0.79257813 0.79375000 0.80781250 0.79687500 0.80664062 0.81132812 0.80585938 0.79492188 0.81367188 0.80000000 0.79804688 0.80976563 0.79921875 0.79101562 0.80234375 0.80000000 0.79023438 0.80312500 0.81132812 0.80742187 0.80937500 0.81250000 0.82265625 0.81093750 0.80156250 0.81640625 0.80585938 0.81601563 0.80039063 0.79960937 0.79531250 0.80703125 0.81367188 0.80781250 0.81093750 0.81093750 0.80507812 0.80507812 0.81289062 0.82187500 0.81367188 0.81406250 0.81835938 0.80976563 0.81132812 0.81406250 0.80585938 0.80976563 0.80898437 0.80859375 0.81289062 0.80742187 0.81484375 0.82265625 0.81093750 0.80703125
+Validation Loss: 3.25835198 2.73169339 2.51620810 2.28694513 2.21494728 1.96623683 1.95191704 1.79831924 1.67375598 1.63002222 1.62734991 1.77325130 1.59540617 1.51033967 1.56958706 1.44314086 1.43014099 1.44195993 1.44297811 1.36396028 1.29966610 1.43091607 1.29341358 1.28974824 1.19169529 1.26040847 1.21347257 1.29748843 1.19904329 1.19974471 1.18003499 1.15947600 1.17123074 1.05967665 1.12141253 1.04854654 1.11547212 1.04139992 1.04712164 1.06341829 1.12342633 1.02100093 1.07341766 1.03099760 1.02520431 1.17679107 1.00950724 0.97350922 1.09675024 0.98110989 0.98682610 1.06882697 0.97281342 0.95739302 0.96470389 0.98844521 0.95610322 0.98632102 1.09420138 1.03010529 0.92789944 0.93789705 0.99872162 0.94905761 1.03031863 1.06130595 0.94831060 0.95018983 0.99244975 0.99537592 0.94017375 0.90154946 0.95797699 0.93250992 0.96815269 0.91462457 0.93045010 0.93350831 0.84896347 0.90526581 0.92981740 0.93297681 0.94518926 0.90649254 0.89315235 0.94179440 0.98967393 0.87050772 0.87129382 0.92973505 0.99431029 0.88122427 0.97957550 0.99899478 0.89611609 0.91089982 0.93595584 0.85057655 0.85968795 0.94198555 0.86314805 0.90288635 0.88809821 0.99529831 0.86278825 0.82676053 0.91930085 0.96150580 0.85665573 0.91628837 0.91517584 0.86520350 0.85927565 0.88070343 0.84978076 0.89360568 0.90934105 0.81373624 0.88567458 0.87148661 0.84911541 0.84169232 0.85245955 0.83316115 0.85647283 0.88601237 0.86922084 0.75970136 1.02984445 0.87467379 0.88665753 0.84772678 0.80871843 0.80892439 0.86507659 0.80801767 0.89925191 0.83955252 0.84811262 0.83349323 0.81867657 0.88758851 0.85121330 0.87518165 0.88551829 0.84430989 0.81550694 0.84986935 0.87460869 0.80475081 0.77836872 0.89240551 0.85386598 0.81956725 0.92334634 0.80404579 0.88238663 0.84090608 0.81163438 0.94767867 0.80391652 0.77900432 0.81234261 0.84773316 0.95201804 0.82250166 0.84892654 0.82174135 0.82022907 0.80520622 0.84124466 0.81336741 0.89904238 0.88453950 0.85622974 0.78569572 0.87363907 0.87152478 0.83606506 0.93684976 0.80302355 0.89451011 0.78550404 0.85846964 0.82384654 0.88115394 0.78499678 0.83068362 0.78154412 0.75998963 0.75957957 0.85051666 0.80011333 0.84290312 0.80244944 0.88047610 0.78876212 0.89951504 0.80108371 0.79589784 0.83618855 0.78229402 0.81129318 0.81977553 0.79071046 0.81255254 0.82839370 0.84289991 0.82509819 0.92116616 0.87636450 0.83183863 0.86818987 0.81964421 0.80483275 0.81372630 0.81733383 0.88748502 0.88047563 0.78944082 0.89840758 0.78727346 0.82813879 0.88788062 0.79843584 0.82151774 0.86291011 0.88985136 0.76451890 0.84696722 0.87508026 0.77179712 0.80300457 0.82778336 0.83982581 0.82149309 0.79256564 0.79604342 0.83699444 0.78556809 0.77049580 0.80154721 0.85747498 0.76525416 0.86053484 0.79736894 0.74900413 0.79772623 0.78694486 0.80270467
+Train Loss: 3.68101306 3.00454227 2.63099013 2.43237701 2.29549420 2.14054241 2.00661150 1.87056457 1.75556244 1.73161960 1.68748979 1.65223642 1.62958095 1.56273982 1.51262471 1.50405962 1.41207786 1.37948149 1.41755885 1.36717204 1.30972512 1.26812473 1.25669284 1.20548242 1.23208456 1.23617076 1.24456245 1.15577487 1.13204868 1.09208634 1.10841499 1.13317358 1.07701858 1.00942082 1.01919370 1.07785405 1.00652275 1.09198918 1.04008665 0.97191187 0.98022614 0.95550550 0.98756810 1.03210631 0.95677846 0.90771295 0.91514397 0.97937069 0.92623316 0.89763688 0.92245345 0.92856987 0.93675056 0.87251907 0.88613133 0.89366340 0.88525938 0.89788227 0.83184009 0.84269029 0.86536088 0.89218951 0.84288886 0.81278260 0.85726602 0.85252140 0.81784581 0.80897145 0.82784911 0.81945884 0.81786699 0.80886947 0.79114601 0.84119976 0.80723601 0.83577080 0.77526433 0.74713218 0.78704887 0.76756271 0.78117577 0.77199379 0.77781230 0.77359464 0.79732027 0.77942410 0.75621398 0.75699993 0.71300629 0.77040146 0.75008999 0.76577886 0.72727279 0.77868535 0.74439733 0.72835304 0.71044877 0.73021956 0.70400378 0.76274010 0.67316652 0.68344504 0.69594187 0.71899967 0.74849321 0.72472428 0.74766607 0.68139319 0.69970308 0.73180345 0.68261075 0.72767899 0.67069100 0.67750191 0.69183302 0.70862097 0.68866290 0.67231763 0.66799627 0.65947004 0.68470238 0.69014611 0.68941513 0.66307134 0.67593857 0.66880761 0.68138247 0.63632179 0.66008190 0.68462059 0.64661794 0.69463771 0.63815136 0.65255349 0.65504563 0.68052129 0.65190314 0.64390338 0.63688198 0.67818104 0.62259617 0.65152602 0.67007307 0.62189508 0.63425470 0.61848157 0.62454531 0.62544760 0.69371798 0.63272169 0.64602581 0.60716370 0.62905333 0.61353827 0.66200796 0.63538840 0.63612473 0.64313777 0.62835833 0.58934271 0.66506708 0.60066348 0.58418500 0.62186986 0.60298807 0.58972023 0.60781271 0.61633911 0.60969493 0.60753525 0.58672228 0.57088384 0.57695662 0.59151356 0.59266552 0.60888617 0.59390525 0.61523697 0.58779389 0.57776285 0.57683565 0.60747745 0.61032605 0.58355705 0.63429601 0.59541641 0.61711356 0.57818107 0.53755662 0.57550065 0.55926569 0.57432952 0.60702910 0.59407472 0.61449149 0.60319810 0.56184826 0.60551294 0.56096103 0.55778386 0.58266756 0.56153281 0.54338269 0.56339375 0.55917452 0.56399552 0.60647594 0.59968527 0.57076855 0.59114484 0.57951936 0.57053648 0.55557534 0.58534707 0.54532815 0.55207233 0.54078608 0.56214458 0.57531260 0.53665601 0.56842626 0.53740416 0.57083204 0.57956883 0.60965515 0.55731520 0.56440866 0.57215339 0.57844306 0.57251185 0.55260454 0.56688376 0.56049973 0.52508936 0.54520875 0.54534258 0.52327034 0.54891364 0.54745453 0.54645220 0.55426345 0.54642720 0.55336047 0.55645335 0.54555433 0.56631914 0.53555159 0.51850479 0.54727753 0.55622885
+Validation F1: 0.03712290 0.14615557 0.20163997 0.25211571 0.28173135 0.32141586 0.33212370 0.36350537 0.40810788 0.42240649 0.40930505 0.37199387 0.41623305 0.45305778 0.43891146 0.46402475 0.45975560 0.46496780 0.46981478 0.48509072 0.53397227 0.47648625 0.53127585 0.52455995 0.55286377 0.52369555 0.54275174 0.51398413 0.55965184 0.55204606 0.54865794 0.55423914 0.54660596 0.59831546 0.57864742 0.59169364 0.57484699 0.60609938 0.60704714 0.60187637 0.59011442 0.61526290 0.59874228 0.59818307 0.61564301 0.56105618 0.60219797 0.62947978 0.57088945 0.62280430 0.62502706 0.60236962 0.63318089 0.62479547 0.62837579 0.61160770 0.62402317 0.60416442 0.58928292 0.62392777 0.65211117 0.63574324 0.63578471 0.63067866 0.59738569 0.60390576 0.63006013 0.62788942 0.62088391 0.62916180 0.63308407 0.64800125 0.63209342 0.63952913 0.62787575 0.62962990 0.65086103 0.64290044 0.66175424 0.64216415 0.63386447 0.62990646 0.63439347 0.63691492 0.65601938 0.64364466 0.63305936 0.65868314 0.66545583 0.65338417 0.62392965 0.65992678 0.62124351 0.61944671 0.65085080 0.66247100 0.64360680 0.67130398 0.67254517 0.65407803 0.65964349 0.64948675 0.67375460 0.63362470 0.67200414 0.67073313 0.65444363 0.63680864 0.65461128 0.64981388 0.64849480 0.66312337 0.67521687 0.66061757 0.66352676 0.65360547 0.64943526 0.67937290 0.66741928 0.66032714 0.67493989 0.67640565 0.67101893 0.68125542 0.66153682 0.67286361 0.65806986 0.68950490 0.62854516 0.65110250 0.65739413 0.65894046 0.67526185 0.68742910 0.67468406 0.68857836 0.67086232 0.69061262 0.68496287 0.68615242 0.68937812 0.67136264 0.67193760 0.65742649 0.66625502 0.68286342 0.67014557 0.68509200 0.65914854 0.69068210 0.68657271 0.65632664 0.66718859 0.67820271 0.65212675 0.69184146 0.66642415 0.68243134 0.68905164 0.65073299 0.68291120 0.69332708 0.69493434 0.67457764 0.64299143 0.68638419 0.68493178 0.67943579 0.69076434 0.70275715 0.68283401 0.68427178 0.67545905 0.67324401 0.67882706 0.70403727 0.68178669 0.67069244 0.68516389 0.65594417 0.69134222 0.65851158 0.68883892 0.67630043 0.68018419 0.66143354 0.69028124 0.67762073 0.68972475 0.69946807 0.69870439 0.68356986 0.69427458 0.67970598 0.68929120 0.67012821 0.68468193 0.64809403 0.68318721 0.69551399 0.68545081 0.70479880 0.68638743 0.69854954 0.69743425 0.70675848 0.67963306 0.68230265 0.68966063 0.66386392 0.66453974 0.68361035 0.67357926 0.67999509 0.69550003 0.69946835 0.68939867 0.66148561 0.68727941 0.69604846 0.67060728 0.68702655 0.70538861 0.66356467 0.69156446 0.69033151 0.68520777 0.66751738 0.70513798 0.67333404 0.66333921 0.69559563 0.69088885 0.68413541 0.68735473 0.67766234 0.68298658 0.69622572 0.68513156 0.70567601 0.69479622 0.68995533 0.67719694 0.70615558 0.67177076 0.70047963 0.71193422 0.69306951 0.69477629 0.69219851
+Train F1: 0.02660673 0.12301208 0.20844792 0.27019028 0.30232905 0.35496185 0.38107578 0.42275062 0.45520096 0.47024347 0.47420385 0.47964184 0.47934745 0.50279044 0.52746591 0.50605359 0.54369793 0.56307606 0.56472117 0.55893329 0.57249211 0.59299950 0.58784693 0.60459951 0.60983622 0.58855810 0.60235651 0.62908756 0.63891419 0.64993978 0.65555987 0.63665750 0.64902131 0.68324020 0.67084392 0.64847479 0.65690385 0.63641521 0.65934559 0.67969794 0.68163773 0.68616280 0.68268550 0.67269622 0.69808991 0.71247635 0.70100519 0.67357507 0.69603715 0.70379293 0.70639878 0.70316322 0.69671311 0.71981211 0.71939746 0.70360081 0.70499767 0.71512386 0.73351161 0.72536011 0.71771752 0.70867156 0.72380660 0.74606583 0.72219289 0.71625492 0.72755405 0.72015004 0.72045883 0.71718329 0.72365234 0.72945980 0.73827663 0.72567446 0.73034952 0.73630162 0.74225569 0.74241381 0.74639295 0.74325377 0.73472300 0.74693963 0.74504522 0.74323487 0.73265957 0.74862000 0.74720867 0.74470225 0.76078562 0.74084690 0.74767464 0.73885030 0.75547241 0.73218811 0.74260486 0.76296030 0.75748282 0.76047511 0.76496511 0.74988622 0.77457311 0.76303718 0.76553166 0.75641732 0.74225602 0.75976360 0.75208093 0.77119731 0.76510746 0.75365074 0.77061864 0.74953775 0.78020889 0.76995820 0.76817856 0.76032560 0.76761136 0.77388392 0.76729337 0.78019028 0.77345971 0.76422357 0.76656985 0.76914488 0.77130048 0.77182060 0.76567727 0.78177002 0.77539850 0.77345705 0.78156980 0.77034079 0.78945117 0.77439529 0.76966050 0.76889778 0.77441265 0.78617691 0.78597684 0.76212561 0.78301266 0.78560737 0.77893602 0.78591126 0.78685220 0.79078831 0.78887445 0.78544191 0.76338259 0.79555756 0.78902661 0.79438933 0.79632642 0.78698401 0.77598586 0.78145519 0.78147222 0.77832747 0.78190506 0.79845036 0.77084769 0.78847853 0.80741954 0.78921804 0.79127302 0.79283039 0.78708392 0.79093546 0.79868880 0.78411376 0.80188552 0.79826466 0.79808829 0.78511898 0.79598652 0.79394133 0.78609461 0.77923669 0.79534430 0.80544034 0.78875009 0.79067220 0.78956773 0.79963221 0.78414427 0.79103446 0.78495351 0.80138070 0.81762039 0.80006440 0.81145644 0.80146063 0.78701377 0.79851173 0.78913053 0.79002300 0.80433599 0.79460267 0.80460356 0.80825088 0.80314171 0.79306467 0.81095413 0.79636522 0.79484387 0.80642579 0.79685322 0.78843306 0.79990941 0.79649222 0.78635031 0.80016595 0.80704169 0.80548051 0.80693609 0.80948119 0.81972281 0.80788504 0.79948306 0.81342106 0.80258359 0.81392035 0.79858702 0.79513006 0.79279893 0.80506012 0.81057842 0.80458423 0.80759059 0.80844993 0.80304703 0.80088710 0.81017213 0.81931850 0.81145580 0.81201712 0.81518171 0.80782909 0.80840028 0.81175745 0.80173507 0.80724990 0.80522227 0.80501983 0.81103781 0.80594096 0.81067275 0.82029381 0.80890101 0.80379606
+Folder already exists: /scratch/user/u.ds162927/PointCloud/probability_output_files/ShapeNetCore55/Weak_Generalization/64_16_128_3_0.05
+Total time: 1947.1386041641235 seconds
